@@ -2,11 +2,11 @@
 ================
 ###接口设计
 #####登录
-================
+
 *Input*
 - param : [ username | password ]
 - method : [ Get | Post]
-================
+
 *Output*
 - auth : [ success | failure | error ]
 - msg : 
