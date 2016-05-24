@@ -5,11 +5,10 @@
 
 *Input*
 - param : [ username | password ]
-- method : [ Get | Post]
+- method : [ Get ]
 
 *Output*
 - auth : [ success | failure | error ]
-
 - msg : 
 
 > success : [ username | uniqid | role | group ]
