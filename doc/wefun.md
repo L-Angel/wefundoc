@@ -26,6 +26,10 @@
 
 > 20000 : failure
 
+> 20001 : password error
+
+> 20002 : dont find this user
+
 > 30000 : error
 
 *Sample*
