@@ -44,6 +44,6 @@
     "uniqid": "uniqid000000001",
     "username": "admin"
   },
-  "status": 200
+  "statuscode": 10000
 }
 ```
