@@ -13,11 +13,15 @@
 - msg : 
 
 > success : [ username | uniqid | role | group ]
+
 > failure :  falureinfo(string)
+
 > error : errorinfo(string)
 
 - statuscode :
 
 > 10000 : success
+
 > 20000 : failure
+
 > 30000 : error
