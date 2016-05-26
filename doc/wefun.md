@@ -7,7 +7,7 @@
 - /interface/user/login
 
 *Input*
-- param : [ username | password ]
+- param : [ username | password | captcha | captcha_id ]
 - method : [ Get ]
 
 *Output*
@@ -29,6 +29,8 @@
 > 20001 : password error
 
 > 20002 : dont find this user
+
+> 20010 : captcha verify not match
 
 > 30000 : error
 
