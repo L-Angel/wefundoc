@@ -38,7 +38,7 @@
 
 > request : 
 ```
-/interface/user/login?username=admin&password=admin
+interface/user/login?username=admin&password=admin&captcha=859844&captcha_id=QPDYc3C0SYcAKGB
 ```
 > reponse : 
 ```
