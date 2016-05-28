@@ -85,11 +85,19 @@ interface/user/login?username=admin&password=admin&captcha=859844&captcha_id=QPD
 
 > 30000 : error
 
+> 30010 : dont clear what error
+
 *Sample*
 
 > request :
 ```
+interface/user/register?username=123123&password=12312312312&tel=121312312&address=1231231&captcha=381270&captcha_id=8o9RMc402deFhy9
 ```
 > reponse :
 ```
+{
+  "msg": "Captcha Verify not match",
+  "result": "failure",
+  "statuscode": 20010
+}
 ```
